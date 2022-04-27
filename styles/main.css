@@ -1,0 +1,53 @@
+.main { 
+    display: flex;
+    flex-direction: wrap;
+}
+
+.pageHeader {
+    /* making the text centered, bigger and bold */
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+body {
+    background: rgb(10,56,219);
+    background: linear-gradient(151deg, rgba(10,56,219,1) 0%, rgba(255,255,255,1) 50%, rgba(252,69,79,1) 100%);
+    text-align: center;
+}
+
+.senator {
+    /* centered the text for the heading */
+    text-align: center;
+    font-size: 1.5em;
+    padding: .5em;
+    text-decoration: underline;
+
+}
+
+.senator_Marsha_heading {
+    text-align: center;
+    font-size: 1em;
+}
+
+.senator_Bill_heading {
+    text-align: center;
+    font-size: 1em;
+}
+
+.rep {
+     /* centered the text for the heading */
+     text-align: center;
+     font-size: 1.5em;
+     padding: .5em;
+     text-decoration: underline;
+}
+
+.rep_jim_heading {
+    text-align: center;
+    font-size: 1em;
+}
+
+ul { 
+    list-style-type: none;
+}
